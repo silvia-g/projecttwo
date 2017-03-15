@@ -1,0 +1,26 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-serif:      'Roboto Slab', Georgia, "Times New Roman", Times, serif;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:       $font-family-serif;
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-padding li {
+  border-top: 1px solid $color-gray;
+  padding-top: $spacer-y-sm;
+  padding-bottom: $spacer-x-sm;
+}
+
+.list-padding li:first-child {
+  border-top: none;
+}
